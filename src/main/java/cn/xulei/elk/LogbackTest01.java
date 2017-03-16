@@ -16,7 +16,8 @@ public class LogbackTest01 {
 //		}
 
 		for (int i = 0; i < 5; i++) {
-			LOGGER.info("第" + i);
+			LOGGER.info("第" + i+"次");
+			
 		}
 	}
 
